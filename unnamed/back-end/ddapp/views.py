@@ -8,5 +8,6 @@ def sample_data(request):
     data = {"message": "Hello from Django!"}
     return Response(data)
 
+
 def index(request):
     return HttpResponse("Welcome")
